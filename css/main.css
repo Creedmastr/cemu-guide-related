@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 70)
+}
+
+ul.main-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(79, 78, 87);
+}
+  
+li {
+    float: left;
+}
+
+a.li-link {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+a.li-link:hover {
+    background-color: rgb(51, 51, 56);
+    transition: 0.8s;
+}
+
+p.title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 3rem;
+    margin-left: 4rem;
+    color: rgb(214, 214, 214);
+}
+
+p.inner-text {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 6rem;
+    color: rgb(187, 187, 187);
+}
+
+a.href-grab {
+    color: gray;
+}
+
+img.images {
+    margin-left: 8rem;
+    border-radius: 1.7rem;
+}
+
+footer {
+    color: gray;
+    display: flex;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+}
